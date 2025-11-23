@@ -37,7 +37,7 @@ export default defineConfig({
                 },
             ],
             defaultLanguages: ['en', 'tr'],
-            fieldTypes: ['string'],
+            fieldTypes: ['string', 'block'],
         }),
     ],
 })

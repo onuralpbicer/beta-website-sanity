@@ -14,3 +14,18 @@ export const productsSharedFields = [
         validation: (rule) => rule.required(),
     }),
 ]
+
+export const pageSharedFields = [
+    defineField({
+        name: 'name',
+        type: 'internationalizedArrayString',
+        title: 'İsim',
+        validation: (rule) => rule.required(),
+    }),
+    defineField({
+        name: 'url',
+        type: 'string',
+        title: 'URL',
+        validation: (rule) => rule.required(),
+    }),
+]
