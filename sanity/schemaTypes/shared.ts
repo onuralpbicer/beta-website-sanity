@@ -1,4 +1,4 @@
-import { defineField } from 'sanity'
+import { defineField, defineType } from 'sanity'
 
 export const productsSharedFields = [
     defineField({
@@ -29,3 +29,13 @@ export const pageSharedFields = [
         validation: (rule) => rule.required(),
     }),
 ]
+
+export const blockContent = defineType({
+    name: 'blockContent',
+    type: 'array',
+    of: [
+        {
+            type: 'block',
+        },
+    ],
+})

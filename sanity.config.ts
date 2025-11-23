@@ -5,7 +5,7 @@
  */
 
 import { visionTool } from '@sanity/vision'
-import { defineConfig } from 'sanity'
+import { defineConfig, defineType } from 'sanity'
 import { structureTool } from 'sanity/structure'
 
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
@@ -37,7 +37,7 @@ export default defineConfig({
                 },
             ],
             defaultLanguages: ['en', 'tr'],
-            fieldTypes: ['string', 'block'],
+            fieldTypes: ['string', 'blockContent'],
         }),
     ],
 })

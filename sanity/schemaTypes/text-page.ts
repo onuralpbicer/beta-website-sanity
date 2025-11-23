@@ -15,7 +15,7 @@ export default defineType({
         ...pageSharedFields,
         defineField({
             name: 'content',
-            type: 'internationalizedArrayBlock',
+            type: 'internationalizedArrayBlockContent',
             title: 'İçerik',
             validation: (rule) => rule.required(),
         }),
