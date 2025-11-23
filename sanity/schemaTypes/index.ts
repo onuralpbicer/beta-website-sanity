@@ -5,6 +5,7 @@ import productCategory from './product-category'
 import textPage from '@/sanity/schemaTypes/text-page'
 import productsPage from '@/sanity/schemaTypes/products-page'
 import appHeader from '@/sanity/schemaTypes/app-header'
+import appFooter from '@/sanity/schemaTypes/app-footer'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
     types: [
@@ -14,5 +15,6 @@ export const schema: { types: SchemaTypeDefinition[] } = {
         textPage,
         productsPage,
         appHeader,
+        appFooter,
     ],
 }
