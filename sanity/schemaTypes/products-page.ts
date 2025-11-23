@@ -3,7 +3,7 @@ import { pageSharedFields } from '@/sanity/schemaTypes/shared'
 
 export default defineType({
     name: 'productsPage',
-    title: 'Yazılı Sayfa',
+    title: 'Ürünler Sayfası',
     type: 'document',
     preview: {
         select: {
